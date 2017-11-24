@@ -1,0 +1,25 @@
+# Ignore this files
+desktop.ini
+# excep this files
+!README.md
+# Ignore these folders
+docs/*
+Duchen/*
+IEA_uRobots_v2/*
+
+# Ignore this folder
+IEA_uRobots_v1/*
+# except this subfolder
+#!IEA_uRobots_v1/docs/
+!IEA_uRobots_v1/electronics/
+# ignore this subfolder again
+IEA_uRobots_v1/electronics/*
+# except this file inside that subfolder
+!IEA_uRobots_v1/electronics/Robochotin.pdsprj
+
+
+
+
+
+
+
