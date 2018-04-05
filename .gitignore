@@ -1,5 +1,7 @@
 # Ignore this files
 desktop.ini
+.gitignore
+.gitattributes
 # excep this files
 !README.md
 # Ignore these folders
