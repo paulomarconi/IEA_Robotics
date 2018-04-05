@@ -10,8 +10,8 @@ Duchen/*
 # Ignore this folder
 IEA_uRobots_v1/*
 # except these subfolders
-#!IEA_uRobots_v1/docs/
-#!IEA_uRobots_v1/mechanics/
+!IEA_uRobots_v1/docs/
+!IEA_uRobots_v1/mechanics/
 !IEA_uRobots_v1/electronics/
 # ignore this subfolder again
 IEA_uRobots_v1/electronics/*
