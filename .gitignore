@@ -5,21 +5,34 @@ desktop.ini
 # Ignore these folders
 docs/*
 Duchen/*
-IEA_uRobots_v2/*
+
 
 # Ignore this folder
 IEA_uRobots_v1/*
-# except this subfolder
+# except these subfolders
 #!IEA_uRobots_v1/docs/
+#!IEA_uRobots_v1/mechanics/
 !IEA_uRobots_v1/electronics/
 # ignore this subfolder again
 IEA_uRobots_v1/electronics/*
 # except this file inside that subfolder
 !IEA_uRobots_v1/electronics/Robochotin.pdsprj
 
-
-
-
-
-
-
+# Ignore this folder
+IEA_uRobots_v2/*
+# except this subfolder
+!IEA_uRobots_v2/electronics/
+# ignore this subfolder again
+IEA_uRobots_v2/electronics/*
+# except this subfolder
+!IEA_uRobots_v2/electronics/altium/
+# ignore this subfolder again
+IEA_uRobots_v2/electronics/altium/*
+# except these files inside that subfolder
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.OutJob
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.PcbDoc
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.PcbLib
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.PrjPcb
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.PrjPcbStructure
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.SchDoc
+!IEA_uRobots_v2/electronics/altium/IEA_uRobots_v2.SchLib
