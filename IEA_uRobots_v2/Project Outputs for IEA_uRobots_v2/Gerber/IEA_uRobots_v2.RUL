@@ -1,7 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\zurits\Google Drive\IEA_Robotics\IEA_uRobots_v2\electronics\altium\IEA_uRobots_v2.PcbDoc
-RuleKind=Width|RuleName=Width_Power|Scope=Board|Minimum=7.87
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.09
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Clearance|RuleName=Clearance_Polygon|Scope=Board|Minimum=7.87

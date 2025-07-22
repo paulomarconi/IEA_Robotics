@@ -1,0 +1,80 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\zurits\Google Drive\IEA_Robotics\IEA_uRobots_v2\electronics\altium\IEA_uRobots_v2\IEA_uRobots_v2.PcbDoc
+Date     : 09-Feb-18
+Time     : 13:38:58
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+   Violation between Clearance Constraint: (0.176mm < 0.2mm) Between Track (19.575mm,28.15mm)(19.975mm,28.55mm) on Top Layer And Pad IMU-17(19.093mm,28.55mm) on Top Layer 
+   Violation between Clearance Constraint: (0.119mm < 0.2mm) Between Track (19.575mm,28.15mm)(19.975mm,28.55mm) on Top Layer And Pad IMU-19(19.725mm,27.518mm) on Top Layer 
+   Violation between Clearance Constraint: (0.119mm < 0.2mm) Between Track (19.093mm,28.15mm)(19.575mm,28.15mm) on Top Layer And Pad IMU-19(19.725mm,27.518mm) on Top Layer 
+   Violation between Clearance Constraint: (0.114mm < 0.2mm) Between Track (89.139mm,28.775mm)(90.175mm,29.811mm) on Bottom Layer And Pad M2-1(88.975mm,30.5mm) on Multi-Layer 
+Rule Violations :4
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.18mm) (Max=0.25mm) (Preferred=0.25mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=0.5mm) (Preferred=0.25mm) ((InNet('+3V3') OR InNet('+3V3_STLink') OR InNet('U5V') OR InNet('VBAT') OR InNet('E5V') OR InNet('VIN_9Vmax') OR InNet('VDD') OR InNet('VDDA') OR InNet('GND') OR InNet('PWR_IN1') OR InNet('PWR_IN2') OR InNet('PWR_IN3') OR InNet('PWR_IN4') OR InNet('PWR_IN5')))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.6mm) (MaxHoleWidth=0.6mm) (PreferredHoleWidth=0.6mm) (MinWidth=1mm) (MaxWidth=1mm) (PreferedWidth=1mm) (All)
+   Violation between Routing Via Style: Via (81.3mm,39.975mm) from Top Layer to Bottom Layer Actual Size : 0.5mm Actual Hole Size : 0.2mm
+   Violation between Routing Via Style: Via (82.4mm,39.975mm) from Top Layer to Bottom Layer Actual Size : 0.5mm Actual Hole Size : 0.2mm
+   Violation between Routing Via Style: Via (81.3mm,38.875mm) from Top Layer to Bottom Layer Actual Size : 0.5mm Actual Hole Size : 0.2mm
+   Violation between Routing Via Style: Via (82.4mm,38.875mm) from Top Layer to Bottom Layer Actual Size : 0.5mm Actual Hole Size : 0.2mm
+   Violation between Routing Via Style: Via (55.625mm,-4.875mm) from Top Layer to Bottom Layer Actual Size : 0.5mm Actual Hole Size : 0.2mm
+   Violation between Routing Via Style: Via (56.725mm,-4.875mm) from Top Layer to Bottom Layer Actual Size : 0.5mm Actual Hole Size : 0.2mm
+Rule Violations :6
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.25mm) (Conductor Width=0.5mm) (Air Gap=0.25mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.001mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP35-TP-SM-C-100 (66.325mm,35.35mm) on Top Layer And SMT Small Component TP36-TP-SM-C-100 (66.325mm,36.775mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP34-TP-SM-C-100 (66.325mm,33.95mm) on Top Layer And SMT Small Component TP35-TP-SM-C-100 (66.325mm,35.35mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP33-TP-SM-C-100 (66.325mm,32.6mm) on Top Layer And SMT Small Component TP34-TP-SM-C-100 (66.325mm,33.95mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP32-TP-SM-C-100 (66.325mm,31.25mm) on Top Layer And SMT Small Component TP33-TP-SM-C-100 (66.325mm,32.6mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP31-TP-SM-C-100 (65.325mm,29.925mm) on Top Layer And SMT Small Component TP32-TP-SM-C-100 (66.325mm,31.25mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP29-TP-SM-C-100 (64.85mm,27.175mm) on Top Layer And SMT Small Component TP30-TP-SM-C-100 (64.525mm,28.6mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP31-TP-SM-C-100 (65.325mm,29.925mm) on Top Layer And SMT Small Component TP30-TP-SM-C-100 (64.525mm,28.6mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP28-TP-SM-C-100 (65.525mm,25.8mm) on Top Layer And SMT Small Component TP29-TP-SM-C-100 (64.85mm,27.175mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP26-TP-SM-C-100 (66.3mm,22.125mm) on Top Layer And SMT Small Component TP27-TP-SM-C-100 (66.3mm,23.475mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component TP24-TP-SM-C-100 (66.15mm,18.55mm) on Top Layer And SMT Small Component TP25-TP-SM-C-100 (66.3mm,19.925mm) on Top Layer 
+Rule Violations :10
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 20
+Waived Violations : 0
+Time Elapsed        : 00:00:04
